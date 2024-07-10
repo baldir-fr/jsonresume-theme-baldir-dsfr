@@ -4,8 +4,7 @@
   "description": "Thème JsonResume en français basé sur le DSFR (design system de l'état français)",
   "main": "index.js",
   "scripts": {
-    "test": "vitest",
-    "sample": "resumed render resume-sample.json --output dist/resume-sample.html"
+    "sample": "hackmyresume build resume-sample.json to dist/OUT.rez.all -t ./"
   },
   "repository": {
     "type": "git",
@@ -25,9 +24,9 @@
   "dependencies": {
     "esm": "^3.2.25",
     "handlebars": "^4.7.8",
-    "luxon": "^3.4.4"
+    "luxon": "^3.4.4",
+    "hackmyresume": "^1.9.0-beta"
   },
   "devDependencies": {
-    "gulp": "^5.0.0"
   }
 }
