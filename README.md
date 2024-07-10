@@ -15,7 +15,7 @@ TODO : image preview du thème
 
 ## Installation
 
-Ce projet utilise [gulp](http://gulpjs.com/) et [resumed](https://github.com/jsonresume/resume-cli) pour tous ses processus de construction internes.
+Ce projet utilise [gulp](http://gulpjs.com/) et [Hackmyresume](https://github.com/hacksalot/HackMyResume) pour tous ses processus de construction internes.
 
 ## Commandes rapides
 
