@@ -1,0 +1,32 @@
+{
+  "name": "jsonresume-theme-baldir-dsfr",
+  "version": "1.0.0",
+  "description": "Thème JsonResume en français basé sur le DSFR (design system de l'état français)",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "sample": "resumed render resume-sample.json --output dist/resume-sample.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/baldir-fr/jsonresume-theme-baldir-dsfr.git"
+  },
+  "keywords": [
+    "jsonresume",
+    "dsfr",
+    "french"
+  ],
+  "author": "Marc Bouvier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baldir-fr/jsonresume-theme-baldir-dsfr/issues"
+  },
+  "homepage": "https://github.com/baldir-fr/jsonresume-theme-baldir-dsfr#readme",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "luxon": "^3.4.4"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}
