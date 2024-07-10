@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/baldir-fr/jsonresume-theme-baldir-dsfr#readme",
   "dependencies": {
+    "esm": "^3.2.25",
     "handlebars": "^4.7.8",
     "luxon": "^3.4.4"
   },
